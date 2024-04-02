@@ -10,7 +10,7 @@ from bertalign.encoder import Encoder
 # See other cross-lingual embedding models at
 # https://www.sbert.net/docs/pretrained_models.html
 
-model_name = "buddhist-nlp/skt-eng-similarity"
+model_name = "buddhist-nlp/bod-eng-similarity"
 #model_name = "../../../semantic-similarity/output/multi-skt-eng/"
 model = Encoder(model_name)
 
